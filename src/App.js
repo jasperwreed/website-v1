@@ -7,7 +7,9 @@ import Home from './Containers/Home'
 import About from './Containers/About'
 import Honors from './Containers/Honors'
 import Education from './Containers/Education'
+
 import NavBar from './Components/NavBar'
+import Footer from './Components/Footer'
 
 class App extends Component {
 
@@ -26,6 +28,7 @@ class App extends Component {
           <Route path='/honors' exact component={this.renderHonors} />
           <Route path='/education' exact component={this.renderEducation} />
         </Switch>
+        {/* <Footer /> */}
       </div>
     )
   }
