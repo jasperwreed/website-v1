@@ -1,8 +1,9 @@
 import React from 'react'
+import '../global-css.css'
 
 const About = () => {
     return (
-        <div>
+        <div className='full-view'>
             <h2>
                 Who Am I?
             </h2>

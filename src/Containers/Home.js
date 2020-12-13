@@ -1,8 +1,9 @@
 import React from 'react'
+import '../global-css.css'
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='full-view homeImage'>
             <h1>Jasper Reed</h1>
             <h5>Software Engineer | Athlete</h5>
         </div>

@@ -1,8 +1,9 @@
 import React from 'react'
+import '../global-css.css'
 
 const Honors = () => {
     return (
-        <div>
+        <div className='full-view'>
             {/* image from track in highschool */}
             <h2>Honors & Awards</h2>
             <h3>Highschool</h3>

@@ -1,8 +1,9 @@
 import React from 'react'
+import '../global-css.css'
 
 const Education = () => {
     return (
-        <div>
+        <div className='full-view'>
             {/* blank background */}
             <h2>Education</h2>
             <h3>University</h3>
