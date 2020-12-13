@@ -3,7 +3,7 @@ import '../global-css.css'
 
 const About = () => {
     return (
-        <div className='full-view'>
+        <div className='full-view bg-dark text-white'>
             <h2>
                 Who Am I?
             </h2>
