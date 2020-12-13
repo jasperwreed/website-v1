@@ -7,7 +7,7 @@ import image4 from '../Images/Reed.jpg'
 
 const Honors = () => {
     return (
-        <div className='full-view'>
+        <div className='full-view container-fluid'>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">

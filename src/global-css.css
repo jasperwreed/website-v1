@@ -1,3 +1,11 @@
 .full-view {
+    padding-top: 75px;
     height: 100vh
+}
+
+.global-nav {
+    min-height: 56px;
+    padding: 21px;
+    padding-top: 8px;
+    padding-bottom: 0px;
 }

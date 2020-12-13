@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import '../global-css.css'
 
 const NavBar = () => {
     return (
-        <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+        <nav className=' global-nav fixed-top navbar navbar-expand-lg navbar-light bg-transparent'>
             <div className='navbar-nav'>
                 <NavLink
                     className='nav-link'
@@ -14,7 +14,7 @@ const NavBar = () => {
                         background: 'lightgrey'
                     }}
                 >
-                    Home
+                    Jasper Reed
                 </NavLink>
                 <NavLink 
                     className='nav-link'
